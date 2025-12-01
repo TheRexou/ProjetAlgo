@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:projet}",
+            "name": "Debug projet",
+            "target": "projet",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug projet"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:projet}",
+            "name": "Release projet",
+            "target": "projet",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release projet"
+        }
+    ]
+}
